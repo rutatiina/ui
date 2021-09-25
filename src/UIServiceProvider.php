@@ -16,6 +16,7 @@ class UIServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $this->loadViewsFrom(__DIR__.'/resources/views/limitless-bs4', 'ui.limitless');
         $this->publishes([__DIR__.'/resources/public/template/l' => public_path('template/l')], 'rutatiina/ui/limitless');
     }
 
