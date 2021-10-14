@@ -15,7 +15,7 @@
 	<!-- Global stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
 	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
-	<link href="{{ mix('template/l/layout_2-ltr-default/css/styles.css') }}" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	<!-- /global stylesheets -->
 
 

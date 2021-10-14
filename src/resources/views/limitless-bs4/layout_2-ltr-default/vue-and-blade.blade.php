@@ -16,22 +16,22 @@
     {{--<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">--}}
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
     <link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
-    <link href="{{ mix('template/l/layout_2-ltr-default/css/styles.css') }}" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <!-- /global stylesheets -->
 
     <!-- Scripts -->
-    <script src="{{ mix('js/app.js') }}" defer></script>
+    <script src="/js/app.js" defer></script>
 
     <!-- Core JS files -->
-    <script src="{{ mix('template/l/layout_2-ltr-default/js/core.js') }}" defer></script>
+    <script src="js/core.js" defer></script>
     @yield('core_js')
 <!-- /core JS files -->
 
     <!-- Theme JS files -->
-    <script src="{{ mix('template/l/layout_2-ltr-default/js/theme.js') }}" defer></script>
+    <script src="js/theme.js" defer></script>
     @yield('theme_js')
 
-    <script src="{{ mix('template/l/layout_2-ltr-default/js/scripts.js') }}" defer></script>
+    <script src="js/scripts.js" defer></script>
 @yield('page_js')
 <!-- /theme JS files -->
 
