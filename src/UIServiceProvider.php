@@ -16,6 +16,8 @@ class UIServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $this->loadRoutesFrom(__DIR__.'/routes/routes.php');
+
         $this->loadViewsFrom(__DIR__.'/resources/views/limitless-bs4', 'ui.limitless');
         $this->publishes([__DIR__.'/resources/public' => public_path('/')], 'rutatiina/ui');
     }
@@ -28,6 +30,5 @@ class UIServiceProvider extends ServiceProvider
     public function register()
     {
         //$this->app->make('Rutatiina\UI\Http\Controllers\UIController');
-
     }
 }
