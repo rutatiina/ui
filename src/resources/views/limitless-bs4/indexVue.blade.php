@@ -49,7 +49,7 @@
 
                             <div class="form-group form-group-feedback form-group-feedback-left">
                                 <input type="text"
-                                       class="form-control {{ $errors->has('email') ? 'border-danger' : '' }}"
+                                       class="form-control border-0 {{ $errors->has('email') ? 'border-danger' : '' }}"
                                        placeholder="Email"
                                        name="email"
                                        value="{{ old('email') }}" required>
@@ -63,7 +63,7 @@
 
                             <div class="form-group form-group-feedback form-group-feedback-left">
                                 <input type="password"
-                                       class="form-control {{ $errors->has('password') ? 'border-danger' : '' }}"
+                                       class="form-control border-0 {{ $errors->has('password') ? 'border-danger' : '' }}"
                                        placeholder="Password"
                                        name="password" required>
                                 <div class="form-control-feedback">

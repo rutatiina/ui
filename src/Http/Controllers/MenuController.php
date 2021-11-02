@@ -529,7 +529,28 @@ class MenuController extends Controller
                 'router' => ['link' => '/settings/organisations'],
                 'link' => null,
                 'icon' => ['class' => 'icon-cog4'],
-                'submenu' => []
+                'submenu' => [
+                    [
+                        'name' => 'Organisation',
+                        'router' => ['link' => '/settings/organisations',],
+                        'link' => null,
+                        'badge' => [
+                            'show' => false,
+                            'router' => ['link' => '/'],
+                            'link' => null,
+                        ]
+                    ],
+                    [
+                        'name' => 'Roles & Permissions',
+                        'router' => ['link' => '/settings/roles',],
+                        'link' => null,
+                        'badge' => [
+                            'show' => false,
+                            'router' => ['link' => '/'],
+                            'link' => null,
+                        ]
+                    ],
+                ]
             ],
             /*
             [
