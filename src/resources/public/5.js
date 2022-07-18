@@ -9989,7 +9989,7 @@ var render = function() {
                         attrs: {
                           list: _vm.txnAccountsIncome,
                           "selected-item": _vm.optionRevenueAccount,
-                          "option-value": "id",
+                          "option-value": "code",
                           "option-text": "name",
                           placeholder: "Revenue / Income Accounts"
                         },
@@ -10626,7 +10626,7 @@ var render = function() {
                         attrs: {
                           list: _vm.txnAccountsEquity,
                           "selected-item": _vm.optionEquityAccount,
-                          "option-value": "id",
+                          "option-value": "code",
                           "option-text": "name",
                           placeholder: "Revenue / Income Accounts"
                         },
@@ -10941,7 +10941,7 @@ var render = function() {
                         attrs: {
                           list: _vm.txnAccountsIncome,
                           "selected-item": _vm.optionRevenueAccount,
-                          "option-value": "id",
+                          "option-value": "code",
                           "option-text": "name",
                           placeholder: "Revenue / Income Accounts"
                         },
@@ -11250,7 +11250,7 @@ var render = function() {
                         attrs: {
                           list: _vm.txnAccountsIncome,
                           "selected-item": _vm.optionRevenueAccount,
-                          "option-value": "id",
+                          "option-value": "code",
                           "option-text": "name",
                           placeholder: "Revenue / Income Accounts"
                         },
