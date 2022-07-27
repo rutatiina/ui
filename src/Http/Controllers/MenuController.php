@@ -368,7 +368,7 @@ class MenuController extends Controller
                     ],
                 ]
             ],
-            /*
+            //*
             [
                 'name' => 'Inventory',
                 'code' => 'inventory',
@@ -445,7 +445,7 @@ class MenuController extends Controller
                     ]
                 ]
             ],
-            */
+            //*/
             [
                 'name' => 'Advanced',
                 'info' => null,
