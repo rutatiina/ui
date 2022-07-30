@@ -389,9 +389,10 @@ class MenuController extends Controller
                     //    ]
                     //],
                     [
-                        'name' => 'Purchases',
-                        'title' => 'Inventory Purchases',
-                        'router' => ['link' => '/purchases'],
+                        'name' => 'Item(s) inventory',
+                        'title' => 'Item(s) inventory',
+                        //'router' => ['link' => '/purchases'],
+                        'router' => ['link' => '/inventory/items'],
                         'link' => null,
                         'badge' => [
                             'show' => false,
