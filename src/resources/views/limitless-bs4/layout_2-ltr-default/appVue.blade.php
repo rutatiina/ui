@@ -27,15 +27,15 @@
     <!-- Core JS files -->
     <script src="js/core.js" defer></script>
     @yield('core_js')
-<!-- /core JS files -->
+    <!-- /core JS files -->
 
     <!-- Theme JS files -->
     <script src="js/theme.js" defer></script>
     @yield('theme_js')
 
     <script src="js/scripts.js" defer></script>
-@yield('page_js')
-<!-- /theme JS files -->
+    @yield('page_js')
+    <!-- /theme JS files -->
 
 </head>
 
