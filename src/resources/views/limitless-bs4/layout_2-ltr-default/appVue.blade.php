@@ -33,7 +33,7 @@
     <script src="js/theme.js" defer></script>
     @yield('theme_js')
 
-    <script src="js/scripts.js" defer></script>
+    <script src="js/scripts.js"></script>
     @yield('page_js')
     <!-- /theme JS files -->
 
