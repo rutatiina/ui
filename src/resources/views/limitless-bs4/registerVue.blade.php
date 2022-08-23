@@ -59,7 +59,7 @@
                                     <input type="text"
                                            name="name"
                                            value="{{ old('name') }}"
-                                           class="form-control @error('name') border-danger border-2 @enderror"
+                                           class="form-control border-0 rounded-0 @error('name') border-danger border-2 @enderror"
                                            placeholder="Full name">
                                     <div class="form-control-feedback">
                                         <i class="icon-user-check text-muted"></i>
@@ -73,7 +73,7 @@
                                     <input type="text"
                                            name="email"
                                            value="{{ old('email') }}"
-                                           class="form-control @error('email') border-danger border-2 @enderror"
+                                           class="form-control border-0 rounded-0 @error('email') border-danger border-2 @enderror"
                                            placeholder="Your email">
                                     <div class="form-control-feedback">
                                         <i class="icon-mention text-danger {{ $errors->has('email') ? 'text-danger' : 'text-muted' }}"></i>
@@ -84,7 +84,7 @@
                                     <input type="email"
                                            name="email_confirmation"
                                            value="{{ old('email_confirmation') }}"
-                                           class="form-control @error('email') border-danger border-2 @enderror"
+                                           class="form-control border-0 rounded-0 @error('email') border-danger border-2 @enderror"
                                            placeholder="Repeat email">
                                     <div class="form-control-feedback">
                                         <i class="icon-mention text-danger {{ $errors->has('email') ? 'text-danger' : 'text-muted' }}"></i>
@@ -95,7 +95,7 @@
                                 </div>
 
                                 <div class="form-group form-group-feedback form-group-feedback-left">
-                                    <input type="password" name="password" class="form-control @error('password') border-danger border-2 @enderror" placeholder="Password">
+                                    <input type="password" name="password" class="form-control border-0 rounded-0 @error('password') border-danger border-2 @enderror" placeholder="Password">
                                     <div class="form-control-feedback">
                                         <i class="icon-user-lock text-muted"></i>
                                     </div>

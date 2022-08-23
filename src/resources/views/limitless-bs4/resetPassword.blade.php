@@ -51,7 +51,7 @@
 
                             <div class="form-group form-group-feedback form-group-feedback-left">
                                 <input id="email" type="email"
-                                       class="form-control  @error('email') border-danger border-2 @enderror"
+                                       class="form-control rounded-0  @error('email') border-danger border-2 @enderror"
                                        name="email" value="{{ $email ?? old('email') }}"
                                        required autocomplete="email" autofocus>
                                 <div class="form-control-feedback">
@@ -64,7 +64,7 @@
 
                             <div class="form-group form-group-feedback form-group-feedback-left">
                                 <input type="password"
-                                       class="form-control  @error('password') border-danger border-2 @enderror"
+                                       class="form-control rounded-0  @error('password') border-danger border-2 @enderror"
                                        name="password"
                                        required autocomplete="new-password"
                                        placeholder="{{ __('Password') }}">
@@ -78,7 +78,7 @@
 
                             <div class="form-group form-group-feedback form-group-feedback-left">
                                 <input type="password"
-                                       class="form-control  @error('email') border-danger border-2 @enderror"
+                                       class="form-control rounded-0  @error('email') border-danger border-2 @enderror"
                                        name="password_confirmation"
                                        required autocomplete="email" autofocus
                                        placeholder="{{ __('Confirm Password') }}">
