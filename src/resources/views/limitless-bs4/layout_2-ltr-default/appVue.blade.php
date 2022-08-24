@@ -18,22 +18,22 @@
     <link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
     <link href="../global_assets/css/icons/fontawesome/styles.min.css" rel="stylesheet" type="text/css">
     <link href="../global_assets/css/icons/material/styles.min.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="{{ rgMix('/css/template/styles.css') }}" rel="stylesheet" type="text/css">
     <!-- /global stylesheets -->
 
     <!-- Scripts -->
-    <script src="/js/app.js" defer></script>
+    <script src="{{ rgMix('/js/app.js') }}" defer></script>
 
     <!-- Core JS files -->
-    <script src="js/core.js" defer></script>
+    <script src="{{ rgMix('/js/template/core.js') }}" defer></script>
     @yield('core_js')
     <!-- /core JS files -->
 
     <!-- Theme JS files -->
-    <script src="js/theme.js" defer></script>
+    <script src="{{ rgMix('/js/template/theme.js') }}" defer></script>
     @yield('theme_js')
 
-    <script src="js/scripts.js"></script>
+    <script src="{{ rgMix('/js/template/scripts.js') }}"></script>
     @yield('page_js')
     <!-- /theme JS files -->
 
