@@ -34,3 +34,6 @@ Route::group(['middleware' => ['web', 'auth', 'tenant']], function() {
     //< ***
 
 });
+
+
+Route::get('external-assets', 'Rutatiina\UI\Http\Controllers\AssetController@show');
