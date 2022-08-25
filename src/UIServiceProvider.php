@@ -19,7 +19,8 @@ class UIServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/routes/routes.php');
 
         $this->loadViewsFrom(__DIR__.'/resources/views/limitless-bs4', 'ui.limitless');
-        $this->publishes([__DIR__.'/resources/public' => public_path('/')], 'rutatiina/ui');
+        //$this->publishes([__DIR__.'/resources/public' => public_path('/')], 'rutatiina/ui');
+        $this->publishes([__DIR__.'/resources/public/mix-manifest.json' => public_path('/')], 'rutatiina/ui');
     }
 
     /**
