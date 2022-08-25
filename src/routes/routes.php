@@ -37,3 +37,6 @@ Route::group(['middleware' => ['web', 'auth', 'tenant']], function() {
 
 
 Route::get('external-assets', 'Rutatiina\UI\Http\Controllers\AssetController@show');
+
+//http://qbuks.test/laravel_mix/js/template/scripts.js
+Route::get('laravel_mix/{one?}/{two?}/{three?}', 'Rutatiina\UI\Http\Controllers\AssetController@templateAssets');

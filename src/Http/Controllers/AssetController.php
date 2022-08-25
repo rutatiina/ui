@@ -76,4 +76,42 @@ class AssetController extends Controller
             'Cache-Control' => 'public, max-age=31536000',
         ]);
     }
+    public function templateAssets($one = null, $two = null, $three = null)
+    {
+        if ($three) $filePathAndName = __DIR__.'/../../resources/public/'.$one.'/'.$two.'/'.$three;
+        elseif ($two) $filePathAndName = __DIR__.'/../../resources/public/'.$one.'/'.$two;
+        elseif ($one) $filePathAndName = __DIR__.'/../../resources/public/'.$one;
+
+        //return __DIR__.'/../../resources/public/0.js';
+        //$filePathAndName = __DIR__.'/../../resources/public/js/template/'.$fileName;
+
+        //return mime_content_type($filePathAndName);
+
+        $infoPath = pathinfo($filePathAndName);
+        $extension = $infoPath['extension'];
+
+        switch ($extension) 
+        {
+            case 'js':
+                $mime = "application/javascript";
+                break;
+            case 'css':
+                $mime = "text/css";
+                break;
+            case 'xxxx':
+                $mime = "text/plain";
+                break;
+            default;
+                $mime = File::mimeType($filePathAndName);
+        }
+
+        
+        return response()->file($filePathAndName, [
+            'Content-Type'  => $mime,
+            'Cache-Control' => 'public, max-age=31536000',
+        ]);
+
+    }
+
+    
 }
