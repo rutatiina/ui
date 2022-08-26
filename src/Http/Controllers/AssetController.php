@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Rutatiina\UI\Http\Controllers;
 
+use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\File;
 use Symfony\Component\Finder\Finder;
@@ -76,14 +77,23 @@ class AssetController extends Controller
             'Cache-Control' => 'public, max-age=31536000',
         ]);
     }
-    public function templateAssets($one = null, $two = null, $three = null)
+    
+    public function webAssets(Request $request)
     {
-        if ($three) $filePathAndName = __DIR__.'/../../resources/public/'.$one.'/'.$two.'/'.$three;
-        elseif ($two) $filePathAndName = __DIR__.'/../../resources/public/'.$one.'/'.$two;
-        elseif ($one) $filePathAndName = __DIR__.'/../../resources/public/'.$one;
+        $segments = $request->segments();
+        //print_r($segments); exit; //Array ( [0] => web [1] => assets [2] => template [3] => l [4] => global_assets [5] => css [6] => icons [7] => fontawesome [8] => styles.min.css )
 
-        //return __DIR__.'/../../resources/public/0.js';
-        //$filePathAndName = __DIR__.'/../../resources/public/js/template/'.$fileName;
+
+        $filePathAndName = __DIR__.'/../../resources/public';
+        //return count($segments);
+
+        //because [0]web & [1]assets are not to be used 
+        for ($i=2; $i<=(count($segments)-1); $i++)
+        {
+            $filePathAndName .= '/'.$segments[$i];
+        }
+
+        //return $filePathAndName;
 
         //return mime_content_type($filePathAndName);
 

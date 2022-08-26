@@ -15,9 +15,9 @@
     <!-- Global stylesheets -->
     {{--<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">--}}
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
-    <link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
-    <link href="../global_assets/css/icons/fontawesome/styles.min.css" rel="stylesheet" type="text/css">
-    <link href="../global_assets/css/icons/material/styles.min.css" rel="stylesheet" type="text/css">
+    <link href="/web/assets/template/l/global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+    <link href="/web/assets/template/l/global_assets/css/icons/fontawesome/styles.min.css" rel="stylesheet" type="text/css">
+    <link href="/web/assets/template/l/global_assets/css/icons/material/styles.min.css" rel="stylesheet" type="text/css">
     <link href="{{ rgMix('/css/template/styles.css') }}" rel="stylesheet" type="text/css">
     <!-- /global stylesheets -->
 
