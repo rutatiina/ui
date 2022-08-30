@@ -204,8 +204,8 @@ class MenuController extends Controller
                         ]
                     ],*/
                     [
-                        'name' => 'Quotation', //'Estimates',
-                        'title' => 'Quotation', //'Estimates',
+                        'name' => 'Quotations', //'Estimates',
+                        'title' => 'Quotations', //'Estimates',
                         'router' => ['link' => '/estimates'],
                         'link' => null,
                         'badge' => [
