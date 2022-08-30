@@ -204,8 +204,8 @@ class MenuController extends Controller
                         ]
                     ],*/
                     [
-                        'name' => 'Estimates',
-                        'title' => 'Estimates',
+                        'name' => 'Quotation', //'Estimates',
+                        'title' => 'Quotation', //'Estimates',
                         'router' => ['link' => '/estimates'],
                         'link' => null,
                         'badge' => [
@@ -248,8 +248,8 @@ class MenuController extends Controller
                         ]
                     ],
                     [
-                        'name' => 'Payments Received',
-                        'title' => 'Payments Received',
+                        'name' => 'Receipts', //'Payments Received',
+                        'title' => 'Receipts', //'Payments Received',
                         'router' => ['link' => '/payments-received'],
                         'link' => null,
                         'badge' => [
