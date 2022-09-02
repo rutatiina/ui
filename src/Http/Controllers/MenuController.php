@@ -51,7 +51,7 @@ class MenuController extends Controller
             ],
             [
                 'name' => 'Contacts',
-                'info' => null,
+                'info' => 'Customers / Suppliers ...',
                 'router' => [
                     'link' => '/contacts',
                 ],
@@ -78,7 +78,7 @@ class MenuController extends Controller
             ],
             [
                 'name' => 'Items',
-                'info' => null,
+                'info' => 'Products, Services ...',
                 'router' => ['link' => '/items'],
                 'link' => null,
                 'icon' => ['class' => 'icon-price-tags'],
@@ -89,8 +89,8 @@ class MenuController extends Controller
                 ],
                 'submenu' => [
                     [
-                        'name' => 'Items',
-                        'title' => 'View Items',
+                        'name' => 'Products / Services ...', // 'Items',
+                        'title' => 'View Products / Services / Cost-centers', // 'View Items',
                         'router' => ['link' => '/items'],
                         'link' => null,
                         'badge' => [
@@ -181,6 +181,17 @@ class MenuController extends Controller
                 'link' => null,
                 'icon' => ['class' => 'icon-cart'],
                 'submenu' => [
+                    [
+                        'name' => 'Sales',
+                        'title' => 'Sales',
+                        'router' => ['link' => '/sales'],
+                        'link' => null,
+                        'badge' => [
+                            'show' => true,
+                            'router' => ['link' => '/sales/create'],
+                            'link' => null,
+                        ]
+                    ],
                     /*[
                         'name' => 'Cash sales',
                         'title' => 'Cash sales',
