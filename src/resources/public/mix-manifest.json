@@ -1,9 +1,9 @@
 {
-    "/js/app.js": "/js/app.js?id=aa1c6390db1cea5420c0",
-    "/css/app.css": "/css/app.css?id=e834fde55b41b617813a",
-    "/css/template/styles.css": "/css/template/styles.css?id=dfd2e96f72fbfb4790d9",
-    "/js/template/core.js": "/js/template/core.js?id=71b5cfa827846c23cd28",
-    "/js/template/core_guest.js": "/js/template/core_guest.js?id=198b4bcc4cf042e0b1f3",
-    "/js/template/theme.js": "/js/template/theme.js?id=79c4e50d925897fc4ebe",
-    "/js/template/scripts.js": "/js/template/scripts.js?id=b5070552e9d829f79ddf"
+    "/js/app.js": "/js/app.6bb9085c1cf8f399ec12.js",
+    "/css/app.css": "/css/app.e834fde55b41b617813a.css",
+    "/css/template/styles.css": "/css/template/styles.dfd2e96f72fbfb4790d9.css",
+    "/js/template/core.js": "/js/template/core.71b5cfa827846c23cd28.js",
+    "/js/template/core_guest.js": "/js/template/core_guest.198b4bcc4cf042e0b1f3.js",
+    "/js/template/theme.js": "/js/template/theme.79c4e50d925897fc4ebe.js",
+    "/js/template/scripts.js": "/js/template/scripts.b5070552e9d829f79ddf.js"
 }
