@@ -294,7 +294,7 @@ class MenuController extends Controller
                 ]
             ],
             [
-                'name' => 'Purchases',
+                'name' => 'Purchases & Expenses',
                 'info' => null,
                 'router' => ['link' => '/financial-accounts/purchases'],
                 'link' => null,
