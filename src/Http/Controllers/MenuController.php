@@ -301,6 +301,17 @@ class MenuController extends Controller
                 'icon' => ['class' => 'icon-price-tag'],
                 'submenu' => [
                     [
+                        'name' => 'Petty cash',
+                        'title' => 'Petty cash',
+                        'router' => ['link' => '/petty-cash'],
+                        'link' => null,
+                        'badge' => [
+                            'show' => true,
+                            'router' => ['link' => '/petty-cash/create'],
+                            'link' => null
+                        ]
+                    ],
+                    [
                         'name' => 'Expenses',
                         'title' => 'Expenses',
                         'router' => ['link' => '/expenses'],
