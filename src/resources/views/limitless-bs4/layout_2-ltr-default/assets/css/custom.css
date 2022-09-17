@@ -122,3 +122,6 @@ body:not(.sidebar-xs) #rg-main-navbar {
 .dropdown-toggle::after {
     margin-left: 2px !important;
 }
+.white-space-pre {
+    white-space: pre;
+}
