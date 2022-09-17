@@ -116,3 +116,6 @@ body.sidebar-xs #rg-main-navbar {
 body:not(.sidebar-xs) #rg-main-navbar {
     left: 270px !important;
 }
+.opacity-25 {
+    opacity: 0.25;
+}
