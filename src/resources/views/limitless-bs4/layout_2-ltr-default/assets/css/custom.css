@@ -119,3 +119,6 @@ body:not(.sidebar-xs) #rg-main-navbar {
 .opacity-25 {
     opacity: 0.25;
 }
+.dropdown-toggle::after {
+    margin-left: 2px !important;
+}
