@@ -2,3 +2,10 @@ update.DS_Store
 **/.DS_Store
 src/resources/.DS_Store
 src/resources/public/chunk-files-dev
+src/resources/public/css/app.css
+src/resources/public/css/template/styles.css
+src/resources/public/js/app.js
+src/resources/public/js/template/core_guest.js
+src/resources/public/js/template/core.js
+src/resources/public/js/template/scripts.js
+src/resources/public/js/template/theme.js
