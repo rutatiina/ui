@@ -1,9 +1,9 @@
 {
-    "/js/app.js": "/js/app.d610ea7f7d595e1f3631.js",
+    "/js/app.js": "/js/app.5f83bf903e85402fb49e.js",
     "/css/app.css": "/css/app.e834fde55b41b617813a.css",
-    "/css/template/styles.css": "/css/template/styles.00ec15695b3bc30c74b0.css",
-    "/js/template/core.js": "/js/template/core.71b5cfa827846c23cd28.js",
-    "/js/template/core_guest.js": "/js/template/core_guest.198b4bcc4cf042e0b1f3.js",
-    "/js/template/theme.js": "/js/template/theme.79c4e50d925897fc4ebe.js",
-    "/js/template/scripts.js": "/js/template/scripts.0ee684ae1d20ba603b6f.js"
+    "/css/template_styles.css": "/css/template_styles.00ec15695b3bc30c74b0.css",
+    "/js/template_core.js": "/js/template_core.71b5cfa827846c23cd28.js",
+    "/js/template_core_guest.js": "/js/template_core_guest.198b4bcc4cf042e0b1f3.js",
+    "/js/template_theme.js": "/js/template_theme.79c4e50d925897fc4ebe.js",
+    "/js/template_scripts.js": "/js/template_scripts.0ee684ae1d20ba603b6f.js"
 }
