@@ -167,7 +167,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ImportQue_vue_vue_type_template_id_85eea326___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ImportQue.vue?vue&type=template&id=85eea326& */ "../qbuks-vue/banking/components/l-limitless-bs4/accounts/transactions/ImportQue.vue?vue&type=template&id=85eea326&");
 /* harmony import */ var _ImportQue_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ImportQue.vue?vue&type=script&lang=js& */ "../qbuks-vue/banking/components/l-limitless-bs4/accounts/transactions/ImportQue.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _qbuks_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../qbuks/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _ImportQue_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ImportQue.vue?vue&type=style&index=0&lang=css& */ "../qbuks-vue/banking/components/l-limitless-bs4/accounts/transactions/ImportQue.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _qbuks_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../qbuks/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -175,7 +177,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_qbuks_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_qbuks_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _ImportQue_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _ImportQue_vue_vue_type_template_id_85eea326___WEBPACK_IMPORTED_MODULE_0__["render"],
   _ImportQue_vue_vue_type_template_id_85eea326___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -204,6 +206,22 @@ component.options.__file = "qbuks-vue/banking/components/l-limitless-bs4/account
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _qbuks_node_modules_babel_loader_lib_index_js_ref_4_0_qbuks_node_modules_vue_loader_lib_index_js_vue_loader_options_ImportQue_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../qbuks/node_modules/babel-loader/lib??ref--4-0!../../../../../../qbuks/node_modules/vue-loader/lib??vue-loader-options!./ImportQue.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../qbuks-vue/banking/components/l-limitless-bs4/accounts/transactions/ImportQue.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_qbuks_node_modules_babel_loader_lib_index_js_ref_4_0_qbuks_node_modules_vue_loader_lib_index_js_vue_loader_options_ImportQue_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "../qbuks-vue/banking/components/l-limitless-bs4/accounts/transactions/ImportQue.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************************************************!*\
+  !*** .-vue/banking/components/l-limitless-bs4/accounts/transactions/ImportQue.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _qbuks_node_modules_style_loader_index_js_qbuks_node_modules_css_loader_index_js_ref_6_1_qbuks_node_modules_vue_loader_lib_loaders_stylePostLoader_js_qbuks_node_modules_postcss_loader_src_index_js_ref_6_2_qbuks_node_modules_vue_loader_lib_index_js_vue_loader_options_ImportQue_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../qbuks/node_modules/style-loader!../../../../../../qbuks/node_modules/css-loader??ref--6-1!../../../../../../qbuks/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../qbuks/node_modules/postcss-loader/src??ref--6-2!../../../../../../qbuks/node_modules/vue-loader/lib??vue-loader-options!./ImportQue.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../qbuks-vue/banking/components/l-limitless-bs4/accounts/transactions/ImportQue.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _qbuks_node_modules_style_loader_index_js_qbuks_node_modules_css_loader_index_js_ref_6_1_qbuks_node_modules_vue_loader_lib_loaders_stylePostLoader_js_qbuks_node_modules_postcss_loader_src_index_js_ref_6_2_qbuks_node_modules_vue_loader_lib_index_js_vue_loader_options_ImportQue_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_qbuks_node_modules_style_loader_index_js_qbuks_node_modules_css_loader_index_js_ref_6_1_qbuks_node_modules_vue_loader_lib_loaders_stylePostLoader_js_qbuks_node_modules_postcss_loader_src_index_js_ref_6_2_qbuks_node_modules_vue_loader_lib_index_js_vue_loader_options_ImportQue_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _qbuks_node_modules_style_loader_index_js_qbuks_node_modules_css_loader_index_js_ref_6_1_qbuks_node_modules_vue_loader_lib_loaders_stylePostLoader_js_qbuks_node_modules_postcss_loader_src_index_js_ref_6_2_qbuks_node_modules_vue_loader_lib_index_js_vue_loader_options_ImportQue_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _qbuks_node_modules_style_loader_index_js_qbuks_node_modules_css_loader_index_js_ref_6_1_qbuks_node_modules_vue_loader_lib_loaders_stylePostLoader_js_qbuks_node_modules_postcss_loader_src_index_js_ref_6_2_qbuks_node_modules_vue_loader_lib_index_js_vue_loader_options_ImportQue_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
 
 /***/ }),
 
@@ -619,6 +637,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 
 
@@ -827,6 +846,19 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     status: String
@@ -891,6 +923,66 @@ __webpack_require__.r(__webpack_exports__);
         attributes.banking_transaction_import_que_id = txn.id;
         return attributes;
       };
+    },
+    cancelTxn: function cancelTxn(row) {
+      var _this = this;
+
+      return this.appPnotifyConfirmation({
+        PNotifySettings: {
+          text: '<p>Are you sure you want to cancel the record?</p>',
+          confirm: {
+            confirm: true,
+            buttons: [{
+              text: 'Yes, cancel',
+              addClass: 'btn btn-sm btn-danger font-weight-bold'
+            }, {
+              addClass: 'btn btn-sm btn-link font-weight-bold'
+            }]
+          }
+        },
+        onConfirm: function onConfirm() {
+          var PNotifySettings = _this.$root.PNotifySettings;
+
+          var _notice = new PNotify(PNotifySettings);
+
+          var data = {
+            _method: 'PATCH',
+            id: _this.$route.params.id
+          };
+          var url = '/banking/accounts/' + _this.$route.params.id + '/import-que/' + row.id + '/cancel';
+          axios.patch(url, data).then(function (response) {
+            //PNotify.removeAll();
+            PNotifySettings.text = response.data.messages.join("\n");
+
+            if (response.data.status === true) {
+              PNotifySettings.title = 'Success';
+              PNotifySettings.type = 'success';
+              PNotifySettings.addclass = 'bg-success-400 border-success-400';
+
+              _this.tableDataUpdate(); // if (response.data.callback)
+              // {
+              //     this.$router.push({path: response.data.callback})
+              // }
+
+            } else {
+              PNotifySettings.title = '! Error';
+              PNotifySettings.type = 'error';
+              PNotifySettings.addclass = 'bg-warning-400 border-warning-400';
+            } //let _notice = new PNotify(PNotifySettings);
+
+
+            _notice.update(PNotifySettings);
+
+            _notice.get().click(function () {
+              _notice.remove();
+            }); //this.response = response.data;
+
+          })["catch"](function (error) {
+            _this.response = error;
+          });
+        },
+        onCancel: function onCancel() {}
+      });
     }
   },
   updated: function updated() {
@@ -1046,6 +1138,25 @@ exports.push([module.i, "\n.ui-pnotify-action-bar {\n    text-align: left !impor
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../qbuks-vue/banking/components/l-limitless-bs4/accounts/transactions/ImportQue.vue?vue&type=style&index=0&lang=css&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!.-vue/banking/components/l-limitless-bs4/accounts/transactions/ImportQue.vue?vue&type=style&index=0&lang=css& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../qbuks/node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.dropdown-toggle::after {\n    margin-left: 0px !important;\n    display: none;\n    border: 0;\n    content: \"\" !important;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../qbuks-vue/banking/components/l-limitless-bs4/accounts/Show.vue?vue&type=style&index=0&lang=css&":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!.-vue/banking/components/l-limitless-bs4/accounts/Show.vue?vue&type=style&index=0&lang=css& ***!
@@ -1069,6 +1180,36 @@ options.transform = transform
 options.insertInto = undefined;
 
 var update = __webpack_require__(/*! ../../../../../qbuks/node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../qbuks-vue/banking/components/l-limitless-bs4/accounts/transactions/ImportQue.vue?vue&type=style&index=0&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!.-vue/banking/components/l-limitless-bs4/accounts/transactions/ImportQue.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../../qbuks/node_modules/css-loader??ref--6-1!../../../../../../qbuks/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../qbuks/node_modules/postcss-loader/src??ref--6-2!../../../../../../qbuks/node_modules/vue-loader/lib??vue-loader-options!./ImportQue.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../qbuks-vue/banking/components/l-limitless-bs4/accounts/transactions/ImportQue.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../../qbuks/node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -1730,6 +1871,22 @@ var render = function() {
                           }
                         },
                         [_vm._v("Cue: Pending transactions")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          staticClass: "dropdown-item",
+                          attrs: { href: "#" },
+                          on: {
+                            click: function($event) {
+                              $event.preventDefault()
+                              _vm.tab = "tab-import-que"
+                              _vm.cueStatus = "canceled"
+                            }
+                          }
+                        },
+                        [_vm._v("Cue: Canceled transactions")]
                       )
                     ]
                   )
@@ -2049,8 +2206,7 @@ var render = function() {
                           attrs: {
                             type: "checkbox",
                             number: "",
-                            id: "row-checkbox-" + row.id,
-                            isabled: ""
+                            id: "row-checkbox-" + row.id
                           },
                           domProps: {
                             value: row.id,
@@ -2152,86 +2308,106 @@ var render = function() {
                   _vm._v(" "),
                   _c("td", [
                     _c("div", { staticClass: "list-icons" }, [
-                      _vm._m(0, true),
-                      _vm._v(" "),
-                      row.banking_transaction_id === 0 &&
-                      (row.debit > 0 || row.credit > 0)
-                        ? _c("div", { staticClass: "dropdown" }, [
-                            _vm._m(1, true),
-                            _vm._v(" "),
-                            row.credit > 0
-                              ? _c(
-                                  "div",
-                                  { staticClass: "dropdown-menu" },
-                                  [
-                                    _c(
-                                      "div",
-                                      { staticClass: "dropdown-header" },
-                                      [_vm._v("MONEY IN")]
-                                    ),
-                                    _vm._v(" "),
-                                    _vm._l(_vm.moneyInLinks, function(link) {
-                                      return [
-                                        _c(
-                                          "router-link",
-                                          {
-                                            staticClass: "dropdown-item",
-                                            attrs: { to: link.href },
-                                            nativeOn: {
-                                              click: function($event) {
-                                                return _vm.importTxn(row)
-                                              }
-                                            }
-                                          },
-                                          [_vm._v(_vm._s(link.name))]
-                                        )
-                                      ]
-                                    })
-                                  ],
-                                  2
-                                )
-                              : _vm._e(),
-                            _vm._v(" "),
-                            row.debit > 0
-                              ? _c(
-                                  "div",
-                                  { staticClass: "dropdown-menu" },
-                                  [
-                                    _c(
-                                      "div",
-                                      { staticClass: "dropdown-header" },
-                                      [_vm._v("MONEY OUT")]
-                                    ),
-                                    _vm._v(" "),
-                                    _vm._l(_vm.moneyOutLinks, function(link) {
-                                      return [
-                                        _c(
-                                          "router-link",
-                                          {
-                                            staticClass: "dropdown-item",
-                                            attrs: { to: link.href },
-                                            nativeOn: {
-                                              click: function($event) {
-                                                return _vm.importTxn(row)
-                                              }
-                                            }
-                                          },
-                                          [_vm._v(_vm._s(link.name))]
-                                        )
-                                      ]
-                                    })
-                                  ],
-                                  2
-                                )
-                              : _vm._e()
-                          ])
-                        : _vm._e(),
-                      _vm._v(" "),
                       row.banking_transaction_id > 0
                         ? _c("div", [
                             _c("i", {
-                              staticClass: "icon-checkmark text-success"
+                              staticClass: "icon-checkbox-checked text-success"
                             })
+                          ])
+                        : row.canceled > 0
+                        ? _c("div", [
+                            _c("i", {
+                              staticClass: "icon-cancel-square text-danger"
+                            })
+                          ])
+                        : row.debit > 0 || row.credit > 0
+                        ? _c("div", { staticClass: "dropdown" }, [
+                            _vm._m(0, true),
+                            _vm._v(" "),
+                            _c(
+                              "div",
+                              { staticClass: "dropdown-menu" },
+                              [
+                                row.credit > 0
+                                  ? [
+                                      _c(
+                                        "div",
+                                        { staticClass: "dropdown-header" },
+                                        [_vm._v("MONEY IN")]
+                                      ),
+                                      _vm._v(" "),
+                                      _vm._l(_vm.moneyInLinks, function(link) {
+                                        return [
+                                          _c(
+                                            "router-link",
+                                            {
+                                              staticClass: "dropdown-item",
+                                              attrs: { to: link.href },
+                                              nativeOn: {
+                                                click: function($event) {
+                                                  return _vm.importTxn(row)
+                                                }
+                                              }
+                                            },
+                                            [_vm._v(_vm._s(link.name))]
+                                          )
+                                        ]
+                                      })
+                                    ]
+                                  : _vm._e(),
+                                _vm._v(" "),
+                                row.debit > 0
+                                  ? [
+                                      _c(
+                                        "div",
+                                        { staticClass: "dropdown-header" },
+                                        [_vm._v("MONEY OUT")]
+                                      ),
+                                      _vm._v(" "),
+                                      _vm._l(_vm.moneyOutLinks, function(link) {
+                                        return [
+                                          _c(
+                                            "router-link",
+                                            {
+                                              staticClass: "dropdown-item",
+                                              attrs: { to: link.href },
+                                              nativeOn: {
+                                                click: function($event) {
+                                                  return _vm.importTxn(row)
+                                                }
+                                              }
+                                            },
+                                            [_vm._v(_vm._s(link.name))]
+                                          )
+                                        ]
+                                      })
+                                    ]
+                                  : _vm._e(),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "dropdown-divider" }),
+                                _vm._v(" "),
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "dropdown-item",
+                                    attrs: { href: "#" },
+                                    on: {
+                                      click: function($event) {
+                                        $event.preventDefault()
+                                        return _vm.cancelTxn(row)
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("i", {
+                                      staticClass: "icon-x text-danger"
+                                    }),
+                                    _vm._v(" Cancel")
+                                  ]
+                                )
+                              ],
+                              2
+                            )
                           ])
                         : _vm._e()
                     ])
@@ -2257,21 +2433,13 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "list-icons-item", attrs: { href: "#" } }, [
-      _c("i", { staticClass: "icon-trash" })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c(
       "a",
       {
         staticClass: "list-icons-item dropdown-toggle",
         attrs: { href: "#", "data-toggle": "dropdown" }
       },
-      [_c("i", { staticClass: "icon-cog6" })]
+      [_c("i", { staticClass: "icon-menu8 text-primary-800" })]
     )
   }
 ]

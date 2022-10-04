@@ -321,7 +321,7 @@ __webpack_require__.r(__webpack_exports__);
 
       return this.appPnotifyConfirmation({
         PNotifySettings: {
-          text: '<p>Are you sure you want to delete the finacial account?</p>'
+          text: '<p>Are you sure you want to delete the financial account?</p>'
         },
         onConfirm: function onConfirm() {
           var PNotifySettings = _this.$root.PNotifySettings;
