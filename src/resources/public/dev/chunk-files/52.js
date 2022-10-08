@@ -923,7 +923,7 @@ var render = function() {
                           _vm._v(" "),
                           _c("p", [
                             _vm._v(
-                              "The auto seleted matches by the system are;"
+                              "The auto selected matches by the system are;"
                             )
                           ]),
                           _vm._v(" "),

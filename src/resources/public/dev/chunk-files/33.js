@@ -274,6 +274,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -481,82 +486,100 @@ var render = function() {
                               }
                             },
                             [
-                              _c(
-                                "div",
-                                {
-                                  staticClass: "custom-control custom-checkbox"
-                                },
-                                [
-                                  _c("input", {
-                                    directives: [
+                              row.canceled === 1
+                                ? [
+                                    _c("i", {
+                                      staticClass:
+                                        "icon-cancel-square text-danger",
+                                      staticStyle: { "margin-left": "2px" }
+                                    })
+                                  ]
+                                : [
+                                    _c(
+                                      "div",
                                       {
-                                        name: "model",
-                                        rawName: "v-model",
-                                        value: _vm.tableData.selected,
-                                        expression: "tableData.selected"
-                                      }
-                                    ],
-                                    staticClass: "custom-control-input",
-                                    attrs: {
-                                      type: "checkbox",
-                                      number: "",
-                                      id: "row-checkbox-" + row.id,
-                                      isabled: ""
-                                    },
-                                    domProps: {
-                                      value: row.id,
-                                      checked: Array.isArray(
-                                        _vm.tableData.selected
-                                      )
-                                        ? _vm._i(
-                                            _vm.tableData.selected,
-                                            row.id
-                                          ) > -1
-                                        : _vm.tableData.selected
-                                    },
-                                    on: {
-                                      change: function($event) {
-                                        var $$a = _vm.tableData.selected,
-                                          $$el = $event.target,
-                                          $$c = $$el.checked ? true : false
-                                        if (Array.isArray($$a)) {
-                                          var $$v = row.id,
-                                            $$i = _vm._i($$a, $$v)
-                                          if ($$el.checked) {
-                                            $$i < 0 &&
-                                              _vm.$set(
-                                                _vm.tableData,
-                                                "selected",
-                                                $$a.concat([$$v])
-                                              )
-                                          } else {
-                                            $$i > -1 &&
-                                              _vm.$set(
-                                                _vm.tableData,
-                                                "selected",
-                                                $$a
-                                                  .slice(0, $$i)
-                                                  .concat($$a.slice($$i + 1))
-                                              )
+                                        staticClass:
+                                          "custom-control custom-checkbox"
+                                      },
+                                      [
+                                        _c("input", {
+                                          directives: [
+                                            {
+                                              name: "model",
+                                              rawName: "v-model",
+                                              value: _vm.tableData.selected,
+                                              expression: "tableData.selected"
+                                            }
+                                          ],
+                                          staticClass: "custom-control-input",
+                                          attrs: {
+                                            type: "checkbox",
+                                            number: "",
+                                            id: "row-checkbox-" + row.id,
+                                            isabled: ""
+                                          },
+                                          domProps: {
+                                            value: row.id,
+                                            checked: Array.isArray(
+                                              _vm.tableData.selected
+                                            )
+                                              ? _vm._i(
+                                                  _vm.tableData.selected,
+                                                  row.id
+                                                ) > -1
+                                              : _vm.tableData.selected
+                                          },
+                                          on: {
+                                            change: function($event) {
+                                              var $$a = _vm.tableData.selected,
+                                                $$el = $event.target,
+                                                $$c = $$el.checked
+                                                  ? true
+                                                  : false
+                                              if (Array.isArray($$a)) {
+                                                var $$v = row.id,
+                                                  $$i = _vm._i($$a, $$v)
+                                                if ($$el.checked) {
+                                                  $$i < 0 &&
+                                                    _vm.$set(
+                                                      _vm.tableData,
+                                                      "selected",
+                                                      $$a.concat([$$v])
+                                                    )
+                                                } else {
+                                                  $$i > -1 &&
+                                                    _vm.$set(
+                                                      _vm.tableData,
+                                                      "selected",
+                                                      $$a
+                                                        .slice(0, $$i)
+                                                        .concat(
+                                                          $$a.slice($$i + 1)
+                                                        )
+                                                    )
+                                                }
+                                              } else {
+                                                _vm.$set(
+                                                  _vm.tableData,
+                                                  "selected",
+                                                  $$c
+                                                )
+                                              }
+                                            }
                                           }
-                                        } else {
-                                          _vm.$set(
-                                            _vm.tableData,
-                                            "selected",
-                                            $$c
-                                          )
-                                        }
-                                      }
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("label", {
-                                    staticClass: "custom-control-label",
-                                    attrs: { for: "row-checkbox-" + row.id }
-                                  })
-                                ]
-                              )
-                            ]
+                                        }),
+                                        _vm._v(" "),
+                                        _c("label", {
+                                          staticClass: "custom-control-label",
+                                          attrs: {
+                                            for: "row-checkbox-" + row.id
+                                          }
+                                        })
+                                      ]
+                                    )
+                                  ]
+                            ],
+                            2
                           ),
                           _vm._v(" "),
                           _c(
@@ -713,11 +736,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("thead", [
       _c("tr", { staticClass: "table-active" }, [
-        _c("th", {
-          staticClass: "font-weight-bold",
-          staticStyle: { width: "20px" },
-          attrs: { scope: "col-auto" }
-        }),
+        _c("th", { attrs: { scope: "col-auto" } }),
         _vm._v(" "),
         _c(
           "th",
@@ -839,20 +858,20 @@ var render = function() {
                 "span",
                 {
                   staticClass:
-                    "font-weight-bold text-danger mr-2 border-left-2 pl-1",
+                    "font-weight-bold text-warning-800 mr-2 border-left-2 pl-1",
                   on: {
                     click: function($event) {
                       $event.preventDefault()
-                      return _vm.$parent.appFetchGlobalsDeleteRecord($event)
+                      return _vm.$parent.appFetchGlobalsCancelRecord($event)
                     }
                   }
                 },
-                [_c("i", { staticClass: "icon-bin2" }), _vm._v(" Delete")]
+                [_c("i", { staticClass: "icon-bin2" }), _vm._v(" Cancel")]
               )
             ])
           : _c("div", { staticClass: "text-muted" }, [
               _vm._v(
-                "* Use checkbox at the begining of the row to select entry"
+                "* Use checkbox at the beginning of the row to select entry"
               )
             ])
       ]
