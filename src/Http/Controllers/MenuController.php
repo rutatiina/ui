@@ -171,6 +171,17 @@ class MenuController extends Controller
                                 'link' => null,
                             ]
                         ]*/
+                        [
+                            'name' => 'Settings',
+                            'title' => 'POS settings',
+                            'router' => ['link' => '/pos/settings'],
+                            'link' => null,
+                            'badge' => [
+                                'show' => false,
+                                'router' => ['link' => '/pos/settings'],
+                                'link' => null,
+                            ]
+                        ]
                 ]
             ],
             [
