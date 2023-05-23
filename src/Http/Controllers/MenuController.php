@@ -112,6 +112,8 @@ class MenuController extends Controller
                     ]
                 ]
             ],
+            /*
+            this module has been temporarily removed pending update of core code base and logic
             [
                 'name' => 'Banking',
                 'info' => 'Bank accounts & statements',
@@ -120,6 +122,7 @@ class MenuController extends Controller
                 'icon' => ['class' => 'icon-library2'],
                 'submenu' => []
             ],
+            //*/
             [
                 'name' => 'POS',
                 'info' => 'Point of sales',
